@@ -1,0 +1,55 @@
+.div1 {
+    width: 80%;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.514);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+
+.person {
+    height: 35vh;
+    width: 60%;
+    background: white;
+    box-shadow: 1px 2px 3px 2px #0c0c0c;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bdy {
+    height: 30%;
+    width: 100%;
+    padding-left: 0.5vw;
+}
+
+img {
+    height: 20vh;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.a {
+    text-align: right;
+}
+
+.eye {
+    width: 95%;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+
+.div1 ::-webkit-scrollbar {
+    display: none;
+}

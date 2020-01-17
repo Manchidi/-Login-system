@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap');
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.contain {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.205), rgba(77, 71, 75, 0.192)), url('/src/img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.205), rgba(77, 71, 75, 0.192)), url('/src/img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.inputs {
+    width: 65%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: linear-gradient(rgba(128, 128, 128, 0.699), rgba(255, 255, 255, 0.582));
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px #0e0d0d;
+}
+
+.blog {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    background: linear-gradient(rgba(128, 128, 128, 0.699), rgba(255, 255, 255, 0.582));
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px #0e0d0d;
+}
+
+.inputsLogin {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: linear-gradient(rgba(128, 128, 128, 0.699), rgba(255, 255, 255, 0.582));
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px #0e0d0d;
+}
+
+.smaller-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.smaller-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 20vh;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    color: black;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.btn1 {
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(11, 130, 182);
+    color: white;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Making the side cards sticky*/
+
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.active {
+    color: black;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #607d8b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 150px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(rgba(139, 135, 135, 0.799), rgba(0, 0, 0, 0.799));
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active2 {
+    background: linear-gradient(rgba(59, 114, 136, 0.799), rgba(0, 109, 160, 0.799));
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.logos {
+    border-radius: 10px;
+}
